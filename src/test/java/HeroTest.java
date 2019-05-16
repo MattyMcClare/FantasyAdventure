@@ -10,7 +10,7 @@ public class HeroTest {
 
     @Before
     public void setUp() {
-        dwarf = new Dwarf("Stefan", 100, null);
+        dwarf = new Dwarf("Stefan", 100);
     }
 
     @Test
@@ -21,10 +21,5 @@ public class HeroTest {
     @Test
     public void hasHealth() {
         assertEquals(100, dwarf.getHealth());
-    }
-
-    @Test
-    public void hasInventory() {
-        assertEquals(null, dwarf.getInventory());
     }
 }

@@ -1,24 +1,21 @@
 package Sets;
 
 
+import Characters.Hero;
 import Interfaces.IWeapon;
 
-public class Sword implements IWeapon {
-    private int damage;
-    private IWeapon weapon;
+public class Sword implements IWeapon{
     private String name;
 
-    public Sword(int damage, IWeapon weapon) {
-        this.damage = damage;
-        this.weapon = weapon;
+    public Sword(String name) {
+        this.name = name;
     }
 
-    public IWeapon getDamage(){
-        return this.weapon;
+    public int getDamage(int damage) {
+       return damage;
     }
 
-    public String getName(){
-        return this.name;
+    public String getName() {
+        return name;
     }
-
 }

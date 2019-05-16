@@ -10,7 +10,7 @@ public class DwarfTest {
 
     @Before
     public void setUp() {
-        dwarf = new Dwarf("Stefan", 100, null);
+        dwarf = new Dwarf("Stefan", 100);
     }
 
     @Test
@@ -24,7 +24,13 @@ public class DwarfTest {
     }
 
     @Test
-    public void hasInventory() {
-        assertEquals(null, dwarf.getInventory());
+    public void hasNoInventory() {
+        assertEquals(0, dwarf.countIWeapon());
+    }
+
+    @Test
+    public void canDealDamage() {
+        dw
+        assertEquals(96, dwarf.getHealth());
     }
 }

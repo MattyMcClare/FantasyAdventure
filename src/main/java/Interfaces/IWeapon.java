@@ -1,6 +1,8 @@
 package Interfaces;
 
+import Characters.Hero;
+import Sets.Sword;
+
 public interface IWeapon {
-    IWeapon getDamage();
-    String getName();
+    int getDamage(int damage);
 }
