@@ -1,4 +1,4 @@
 package Characters;
 
-public class Dwarves {
+public class Wizard {
 }

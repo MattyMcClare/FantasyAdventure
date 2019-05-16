@@ -1,4 +1,4 @@
 package Characters;
 
-public class Clerics {
+public class Knight {
 }
